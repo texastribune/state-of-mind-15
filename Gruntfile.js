@@ -57,7 +57,7 @@ module.exports = function (grunt) {
     connect: {
       options: {
         port: 9000,
-        open: true,
+        open: false,
         livereload: 35729,
         hostname: '0.0.0.0'
       },
@@ -158,9 +158,15 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= config.app %>',
-          src: ['{,*/}*.html', '!templates/*'],
+          src: ['**/*.html', '!templates/*'],
           dest: '.tmp',
           ext: '.html'
+        },{
+          expand: true,
+          cwd: '<%= config.app %>',
+          src: ['styles/**/*.scss'],
+          dest: '.tmp',
+          ext: '.scss'
         }]
       }
     },

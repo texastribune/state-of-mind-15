@@ -1,0 +1,103 @@
+<!-- Meta Share data -->
+  {% macro meta_data(sheet) %}
+    {% for x in sheet %}
+    <title> {{ sheet.topic }} | Perry Legacy </title>
+  <!--   Open Graph -->
+    <meta property="og:site_name" content="The Texas Tribune">
+    <meta property="og:description" content="{{ x.facebook_text }}">
+    <meta property="og:title" content="{{ x.Series }}">
+    <meta property="og:url" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind/">
+    <meta property="og:redirect_uri" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind">
+    <meta property="og:image" content="">
+
+  <!-- Twitter settings -->
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" value="@TexasTribune">
+    <meta name="twitter:creator" content="@newsapps">
+    <meta name="twitter:title" content="{{ x.Series }}">
+    <meta name="twitter:description" content="{{ x.twitter_text }}">
+    <meta name="twitter:url" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind/">
+    <meta name="twitter:image" content="">
+    {% endfor %}
+  {% endmacro %}
+
+<!-- Project Header -->
+{% macro header(sheet) %}
+
+  {% for x in sheet %}
+  <section class="banner">
+    <div class="grand-header-image"></div>
+    <header class="grand-header content-block">
+      <h1><a href="/">{{ x.Series }}</a></h1>
+      <p>{{ x.Subtitle }}</p>
+    </header>
+  </section>
+  {% endfor %}
+
+{% endmacro %}
+
+<!-- HEADLINE -->
+
+  {% macro headline(sheet) %}
+  <header>
+    <h1>{{ sheet.headline }}</h1>
+    <div class="byline">By {{ sheet.byline }} | Dec. 28, 2014</div>
+    <div class="row share-row">
+      <a href="https://twitter.com/intent/tweet?text={{ sheet.tweet_text | urlencode }} {{ sheet.share_url_tw | urlencode }}&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
+        <div class="share-cell first-share">
+          <i class="fa fa-twitter"></i> Tweet
+        </div>
+      </a>
+      <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href={{ sheet.share_url_fb | urlencode }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org/perry-legacy/{{ sheet.slug }}" title="share on Facebook" class="social-share" target="_blank">
+        <div class="share-cell">
+          <i class="fa fa-facebook"></i> Share
+        </div>
+      </a>
+    </div>
+  </header>
+  {% endmacro %}
+
+<!-- Video Block -->
+{% macro videoblock(sheet) %}
+  {% for x in sheet %}
+  <div class="prose">
+    <header>
+      <h3>{{ x.HEADLINE }}</h3>
+    </header>
+  </div>
+  {% endfor %}
+{% endmacro %}
+
+
+<!-- Generate Raw Text -->
+{% macro rawtext(sheet) %}
+<div class="main">
+  <div class="container">
+    <div class="prose raw-text">
+      <h1>{{ sheet.headline }}</h1>
+      <div class="byline">By {{ sheet.byline }} | Dec. 28, 2014</div>
+      {{ sheet.text_intro }}
+      {{ sheet.text_introb }}
+      <h3>{{ sheet.text_1_header }}</h3>
+      {{ sheet.text_1 }}
+      {{ sheet.text_1b }}
+      <h3>{{ sheet.text_2_header }}</h3>
+      {{ sheet.text_2 }}
+      {{ sheet.text_2b }}
+      <h3>{{ sheet.text_3_header }}</h3>
+      {{ sheet.text_3 }}
+      {{ sheet.text_3b }}
+      <h3>{{ sheet.text_4_header }}</h3>
+      {{ sheet.text_4 }}
+      {{ sheet.text_4b }}
+      <h3>{{ sheet.text_5_header }}</h3>
+      {{ sheet.text_5 }}
+      {{ sheet.text_5b }}
+      <h3>{{ sheet.text_6_header }}</h3>
+      {{ sheet.text_6 }}
+      {{ sheet.text_6b }}
+    </div>
+  </div>
+</div>
+{% endmacro %}
+

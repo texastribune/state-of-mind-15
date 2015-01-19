@@ -1,6 +1,66 @@
 {
-  "META": {
-    "project-title": "State of Mind"
-  }
-
+  "TEXT": [
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Texas",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "College Station",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "San Antonio",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Mansfield",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Dallas",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Beaumont",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Spring Branch",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    },
+    {
+      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "LOCATION": "Waco",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 20, 2015"
+    }
+  ],
+  "META": [
+    {
+      "Series": "State of Mind",
+      "Subtitle": "Community Concerns Come to the Capitol"
+    }
+  ]
 }

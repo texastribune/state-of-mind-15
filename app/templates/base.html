@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ META.project_title }} | The Texas Tribune</title>
+  <title>{{ data.META.Series_Title }} | The Texas Tribune</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -25,15 +25,7 @@
   </div>
 </header>
 
-<div class="banner">
-  <div class="grand-header-image"></div>
-  <header class="grand-header content-block">
-    <h1><a href="/">{{ META.project_title }}</a></h1>
-  </header>
-</div>
-
 {% block content %}{% endblock %}
-
 
 <footer class="tribune-footer">
 <div class="container">
