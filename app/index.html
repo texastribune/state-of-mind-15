@@ -4,22 +4,26 @@
 {% block content %}
 
   {{ macro.header(META) }}
+  <div class="main">
+    <section class="prose">
+      <div class="row share-row">
+        <a href="https://twitter.com/intent/tweet?text={{ sheet.tweet_text | urlencode }} {{ sheet.share_url_tw | urlencode }}&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
+          <div class="share-cell first-share">
+            <i class="fa fa-twitter"></i> Tweet
+          </div>
+        </a>
+        <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href={{ sheet.share_url_fb | urlencode }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org/perry-legacy/{{ sheet.slug }}" title="share on Facebook" class="social-share" target="_blank">
+          <div class="share-cell">
+            <i class="fa fa-facebook"></i> Share
+          </div>
+        </a>
+      </div>
+    </section>
 
-  <section class="prose">
-    <div class="row share-row">
-      <a href="https://twitter.com/intent/tweet?text={{ sheet.tweet_text | urlencode }} {{ sheet.share_url_tw | urlencode }}&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
-        <div class="share-cell first-share">
-          <i class="fa fa-twitter"></i> Tweet
-        </div>
-      </a>
-      <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href={{ sheet.share_url_fb | urlencode }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org/perry-legacy/{{ sheet.slug }}" title="share on Facebook" class="social-share" target="_blank">
-        <div class="share-cell">
-          <i class="fa fa-facebook"></i> Share
-        </div>
-      </a>
-    </div>
-  </section>
+    <section class="video-container">
+      {{ macro.videoblock(TEXT) }}
+    </section>
 
-  {{ macro.videoblock(TEXT) }}
+  </div>
 
 {% endblock %}

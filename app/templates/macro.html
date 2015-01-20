@@ -30,6 +30,7 @@
     <header class="grand-header content-block">
       <h1><a href="/">{{ x.Series }}</a></h1>
       <p>{{ x.Subtitle }}</p>
+      <p class="byline">By Alana Rocha and Justin Dehn</p>
     </header>
   </section>
   {% endfor %}
@@ -64,6 +65,9 @@
     <header>
       <h3>{{ x.HEADLINE }}</h3>
     </header>
+    <div class="media">
+      <iframe width="560" height="315" src="//www.youtube.com/embed/{{ x.YOUTUBE_ID }}" frameborder="0" allowfullscreen></iframe>
+    </div>
   </div>
   {% endfor %}
 {% endmacro %}
