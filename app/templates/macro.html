@@ -30,7 +30,7 @@
     <header class="grand-header content-block">
       <h1><a href="/">{{ x.Series }}</a></h1>
       <p>{{ x.Subtitle }}</p>
-      <p class="byline">By Alana Rocha and Justin Dehn</p>
+      <p class="byline">By <a href="http://www.texastribune.org/about/staff/rocha-alana/">Alana Rocha</a> and <a href="http://www.texastribune.org/about/staff/justin-dehn/">Justin Dehn</a></p>
     </header>
   </section>
   {% endfor %}
@@ -58,15 +58,28 @@
   </header>
   {% endmacro %}
 
+<!-- Story Navigation -->
+{% macro navlinks(sheet) %}
+  {% for x in sheet %}
+  <li>
+    <a href="#{{ x.YOUTUBE_ID }}">{{ x.LOCATION }} | {{ x.HEADLINE }}</a>
+  </li>
+  {% endfor %}
+{% endmacro %}
+
 <!-- Video Block -->
 {% macro videoblock(sheet) %}
   {% for x in sheet %}
-  <div class="prose">
+  <div id="x.YOUTUBE_ID" class="video-block">
     <header>
-      <h3>{{ x.HEADLINE }}</h3>
+      <h1>{{ x.HEADLINE }}</h1>
     </header>
-    <div class="media">
+    <div class="video">
       <iframe width="560" height="315" src="//www.youtube.com/embed/{{ x.YOUTUBE_ID }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-context">
+      <img src="http://placehold.it/350x250">
+      <p><span class="dateline">{{ x.LOCATION }} &mdash; </span>{{ x.SHORT_DESC }}</p>
     </div>
   </div>
   {% endfor %}

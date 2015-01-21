@@ -5,7 +5,7 @@
 
   {{ macro.header(META) }}
   <div class="main">
-    <section class="prose">
+    <section class="series-intro prose">
       <div class="row share-row">
         <a href="https://twitter.com/intent/tweet?text={{ sheet.tweet_text | urlencode }} {{ sheet.share_url_tw | urlencode }}&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
           <div class="share-cell first-share">
@@ -18,9 +18,15 @@
           </div>
         </a>
       </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus magna diam, quis congue enim sagittis rutrum. Curabitur id enim sagittis, lobortis tortor vitae, porta nulla. Donec cursus fermentum est. Donec quis ligula eleifend, accumsan felis sed, vehicula mi. Phasellus suscipit bibendum risus ut convallis. Praesent at maximus eros, non interdum dolor. Donec sit amet turpis quis augue venenatis commodo a eu nulla. Duis id vulputate nisl, in dictum purus. Integer sollicitudin vel justo vitae sagittis.</p>
+      <nav>
+        <ul>
+          {{ macro.navlinks(TEXT) }}
+        </ul>
+      </nav>
     </section>
 
-    <section class="video-container">
+    <section class="video-container prose">
       {{ macro.videoblock(TEXT) }}
     </section>
 

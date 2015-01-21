@@ -1,32 +1,6 @@
-.main {
-  @include outer-container;
-}
-
-.grand-header {
-  p.byline {
-    font-size: .8em;
-    font-weight: 400;
-    font-style: italic;
-  }
-}
-
-.series-intro {
-  @include span-columns(12);
-  @include media($default-768) {
-    @include span-columns(10);
-    @include shift(1);
-  }
-}
-
 .video-container {
   @extend %content-block;
   @include span-columns(12);
-
-  .tx-extension {
-    &:first-child {
-      display: none;
-    }
-  }
 }
 
 .video-block {
@@ -56,5 +30,3 @@
     font-weight: 800;
   }
 }
-
-
