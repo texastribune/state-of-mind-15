@@ -6,27 +6,65 @@
 .video-block {
   @include span-columns(12);
 
-  border-bottom: 1px solid $tribune-yellow;
+  // border-bottom: 1px solid $tribune-yellow;
   padding-bottom: 1.4em;
+
+  h1 {
+    font-weight: 400;
+    border-bottom: 1px solid $tribune-yellow;
+
+    .date {
+      color: $text-gray;
+      float: right;
+      font-size: .7em;
+      // font-style: italic;
+      font-weight: 200;
+      margin-top: .5em;
+    }
+
+  }
+
 }
 
 .video {
   @include span-columns(12);
+  margin-bottom: 1em;
 
-  @include media($default-768) {
+  @include media($medium) {
+    @include span-columns(12);
+  }
+
+  @include media($large) {
     @include span-columns(8);
   }
 }
 
-.video-context {
+.map,
+.context {
   @include span-columns(12);
 
-  @include media($default-768) {
+  @include media($large) {
     @include span-columns(4);
+    @include omega();
   }
 
   .dateline {
     text-transform: uppercase;
     font-weight: 800;
+  }
+}
+
+.map {
+  margin-bottom: 1em;
+
+  @include media($medium) {
+    @include span-columns(5);
+  }
+}
+
+.context {
+  @include media($medium) {
+    @include span-columns(7);
+    @include omega();
   }
 }

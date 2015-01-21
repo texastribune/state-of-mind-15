@@ -1,3 +1,7 @@
+$small: new-breakpoint(min-width 460px max-width 600px);
+$medium: new-breakpoint(min-width 601px max-width 850px);
+$large: new-breakpoint(min-width 851px);
+
 .main {
   @include outer-container;
 }
@@ -12,49 +16,32 @@
 
 .series-intro {
   @include span-columns(12);
-  @include media($default-768) {
-    @include span-columns(10);
-    @include shift(1);
+  // @include media($default-768) {
+  //   @include span-columns(10);
+  //   @include shift(1);
+  // }
+}
+
+.mobile {
+  display: block;
+
+  @include media($medium) {
+    display: none;
+  }
+
+  @include media($large) {
+    display: none;
   }
 }
 
-.video-container {
-  @extend %content-block;
-  @include span-columns(12);
+.desktop {
+  display: none;
 
-  .tx-extension {
-    &:first-child {
-      display: none;
-    }
-  }
-}
-
-.video-block {
-  @include span-columns(12);
-
-  border-bottom: 1px solid $tribune-yellow;
-  padding-bottom: 1.4em;
-}
-
-.video {
-  @include span-columns(12);
-
-  @include media($default-768) {
-    @include span-columns(8);
-  }
-}
-
-.video-context {
-  @include span-columns(12);
-
-  @include media($default-768) {
-    @include span-columns(4);
+  @include media($medium) {
+    display: block;
   }
 
-  .dateline {
-    text-transform: uppercase;
-    font-weight: 800;
+  @include media($large) {
+    display: block;
   }
 }
-
-

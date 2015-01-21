@@ -62,7 +62,7 @@
 {% macro navlinks(sheet) %}
   {% for x in sheet %}
   <li>
-    <a href="#{{ x.YOUTUBE_ID }}">{{ x.LOCATION }} | {{ x.HEADLINE }}</a>
+    <a href="#{{ x.YOUTUBE_ID }}"><span class="dateline">{{ x.LOCATION }}</span> | {{ x.HEADLINE }}</a>
   </li>
   {% endfor %}
 {% endmacro %}
@@ -70,17 +70,22 @@
 <!-- Video Block -->
 {% macro videoblock(sheet) %}
   {% for x in sheet %}
-  <div id="x.YOUTUBE_ID" class="video-block">
+  <div id="{{ x.YOUTUBE_ID }}" class="video-block">
     <header>
-      <h1>{{ x.HEADLINE }}</h1>
+      <h1>{{ x.HEADLINE }} <span class="date">{{ x.DATE_PUBLISHED }}</span></h1>
     </header>
     <div class="video">
       <iframe width="560" height="315" src="//www.youtube.com/embed/{{ x.YOUTUBE_ID }}" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="video-context">
-      <img src="http://placehold.it/350x250">
+    <div class="map">
+      <img class="mobile" src="http://placehold.it/350x150">
+      <img class="desktop" src="http://placehold.it/350x250">
+    </div>
+    <div class="context">
       <p><span class="dateline">{{ x.LOCATION }} &mdash; </span>{{ x.SHORT_DESC }}</p>
     </div>
+<!--     <div class="video-context">
+    </div> -->
   </div>
   {% endfor %}
 {% endmacro %}
