@@ -20,6 +20,14 @@ $large: new-breakpoint(min-width 851px);
   //   @include span-columns(10);
   //   @include shift(1);
   // }
+
+  p {
+    margin-top: 1em;
+  }
+}
+
+.share-row {
+  margin-top: 1em;
 }
 
 .mobile {
