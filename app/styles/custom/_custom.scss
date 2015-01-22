@@ -53,3 +53,36 @@ $large: new-breakpoint(min-width 851px);
     display: block;
   }
 }
+
+.desktop-hide {
+  display: block;
+
+  @include media($small) {
+    display: block;
+  }
+
+  @include media($medium) {
+    display: none;
+  }
+
+  @include media($large) {
+    display: none;
+  }
+}
+
+.mobile-hide {
+  @include clearfix;
+  display: none;
+
+  @include media($small) {
+    display: none;
+  }
+
+  @include media($medium) {
+    display: block;
+  }
+
+  @include media($large) {
+    display: block;
+  }
+}
