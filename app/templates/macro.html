@@ -62,7 +62,7 @@
 {% macro navlinks(sheet) %}
   {% for x in sheet %}
   <li>
-    <a href="#{{ x.YOUTUBE_ID }}"><span class="dateline">{{ x.LOCATION }}</span> | {{ x.HEADLINE }}</a>
+    <a href="#{{ x.YOUTUBE_ID }}"><i class="fa fa-angle-right"></i><span class="underline"><span class="dateline">{{ x.LOCATION }}</span> | {{ x.HEADLINE }}</span></a>
   </li>
   {% endfor %}
 {% endmacro %}

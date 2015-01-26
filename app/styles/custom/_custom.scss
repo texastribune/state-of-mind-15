@@ -6,12 +6,41 @@ $large: new-breakpoint(min-width 1101px);
   @include outer-container;
 }
 
-.grand-header {
+.banner {
+  height: 16em;
+
+  @include media($medium) {
+    height: 18em;
+  }
+
+  @include media($large) {
+    height: 24em;
+  }
+
+}
+
+.banner .grand-header {
+  background-color: rgba(17, 17, 17, 0);
+
   p.byline {
     font-size: .8em;
     font-weight: 400;
     font-style: italic;
   }
+}
+
+.banner .grand-header-image {
+  background-image: url('../images/TT-SOM-web-BG-sharp.jpg');
+  background-position: 80% center;
+
+  @include media($medium) {
+    background-position: center 20%;
+  }
+
+  @include media($large) {
+    background-position: center 10%;
+  }
+
 }
 
 .series-intro {

@@ -27,7 +27,20 @@
 
     &:hover {
       text-decoration: none;
-      border-bottom: 1px solid $tribune-yellow;
+
+      .underline {
+        border-bottom: 1px solid $tribune-yellow;
+      }
+
+    }
+  }
+
+  .fa-angle-right {
+    color: $teal;
+    margin-right: 1em;
+
+    &:hover {
+      border-bottom: 0;
     }
   }
 }
