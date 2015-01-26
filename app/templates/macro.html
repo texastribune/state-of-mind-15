@@ -72,54 +72,19 @@
   {% for x in sheet %}
   <div id="{{ x.YOUTUBE_ID }}" class="video-block">
     <header>
-      <h1>{{ x.HEADLINE }} <span class="date">{{ x.DATE_PUBLISHED }}</span></h1>
+      <h1><a href="{{ x.TRIB_URL }}">{{ x.HEADLINE }} <span class="date">{{ x.DATE_PUBLISHED }}</span></a></h1>
     </header>
     <div class="video">
       <iframe width="560" height="315" src="//www.youtube.com/embed/{{ x.YOUTUBE_ID }}" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="map">
-      <img class="mobile" src="http://placehold.it/350x150">
-      <img class="desktop" src="http://placehold.it/350x250">
+      <img class="mobile" src="images/TT-SOM-map-{{ x.MAP_IMG }}-mobile.png">
+      <img class="desktop" src="images/TT-SOM-map-{{ x.MAP_IMG }}-desktop.png">
     </div>
     <div class="context">
       <p><span class="dateline">{{ x.LOCATION }} &mdash; </span>{{ x.SHORT_DESC }}</p>
     </div>
-<!--     <div class="video-context">
-    </div> -->
   </div>
   {% endfor %}
-{% endmacro %}
-
-
-<!-- Generate Raw Text -->
-{% macro rawtext(sheet) %}
-<div class="main">
-  <div class="container">
-    <div class="prose raw-text">
-      <h1>{{ sheet.headline }}</h1>
-      <div class="byline">By {{ sheet.byline }} | Dec. 28, 2014</div>
-      {{ sheet.text_intro }}
-      {{ sheet.text_introb }}
-      <h3>{{ sheet.text_1_header }}</h3>
-      {{ sheet.text_1 }}
-      {{ sheet.text_1b }}
-      <h3>{{ sheet.text_2_header }}</h3>
-      {{ sheet.text_2 }}
-      {{ sheet.text_2b }}
-      <h3>{{ sheet.text_3_header }}</h3>
-      {{ sheet.text_3 }}
-      {{ sheet.text_3b }}
-      <h3>{{ sheet.text_4_header }}</h3>
-      {{ sheet.text_4 }}
-      {{ sheet.text_4b }}
-      <h3>{{ sheet.text_5_header }}</h3>
-      {{ sheet.text_5 }}
-      {{ sheet.text_5b }}
-      <h3>{{ sheet.text_6_header }}</h3>
-      {{ sheet.text_6 }}
-      {{ sheet.text_6b }}
-    </div>
-  </div>
-</div>
 {% endmacro %}
 

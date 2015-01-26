@@ -1,60 +1,72 @@
 {
   "TEXT": [
     {
+      "HEADLINE": "RECAP??",
+      "LOCATION": "TEXAS",
+      "YOUTUBE_ID": "sfODm7QGOlA",
+      "SHORT_DESC": "Members of the 84th Legislature will take on a variety of issues that affect communities across Texas. Our multimedia team traveled the state — as it did ahead of the 83rd Legislature — to see what’s important where. As we prepare to look ahead at issues facing the current Legislature in our State of Mind series, here’s a look back at how some of last session’s priorities played out.",
+      "DATE_PUBLISHED": "Jan. 18, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/17/state-mind-issues-then-and-now/",
+      "MAP_IMG": "Texas"
+    },
+    {
       "HEADLINE": "A New Bid to End Texting While Driving",
-      "LOCATION": "Texas",
+      "LOCATION": "College Station",
       "YOUTUBE_ID": "INV9hShE-Bg",
       "SHORT_DESC": "For the fifth straight legislative session, Texas lawmakers will consider bills proposing a statewide ban on texting while driving. There’s more momentum than ever to get it passed, but a difference of opinions among the state’s new leadership could stand in its way.",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "DATE_PUBLISHED": "Jan. 20, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/20/state-mind-banning-texting-behind-wheel/",
+      "MAP_IMG": "CollegeStation"
     },
     {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
-      "LOCATION": "College Station",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
-    },
-    {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "HEADLINE": "Finding a Way to Cover the Uninsured",
       "LOCATION": "San Antonio",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "YOUTUBE_ID": "aU9PW5k-IWg",
+      "SHORT_DESC": "Texas hospitals want state lawmakers to figure out a way for the state to draw down billions in federal Affordable Care Act dollars to cover the uninsured and alleviate the burden on local taxpayers. Health officials hope the Legislature looks at a program in San Antonio that has the makings of a Texas solution.",
+      "DATE_PUBLISHED": "Jan. 22, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/22/state-mind-finding-way-cover-uninsured/",
+      "MAP_IMG": "SanAntonio"
     },
     {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "HEADLINE": "A Debate Over Fracking and Local Control",
       "LOCATION": "Mansfield",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "YOUTUBE_ID": "YPi6iSq77lc",
+      "SHORT_DESC": "After Denton voters decided to ban fracking, other Texas cities could weigh similar moves. Worried that Denton’s actions could lead to similar bans in other cities, state officials vowed more oversight of the oil and gas industry. And it’s caused some leaders and lawmakers to question exactly how \"local control\" should apply. ",
+      "DATE_PUBLISHED": "Jan. 23, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/23/regulating-local-control-oil-gas/",
+      "MAP_IMG": "Mansfield"
     },
     {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "HEADLINE": "Hazelwood",
+      "LOCATION": "San Marcos",
+      "YOUTUBE_ID": "_XhNS2Vk9OQ",
+      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "DATE_PUBLISHED": "Jan. 27, 2015",
+      "MAP_IMG": "SanMarcos"
+    },
+    {
+      "HEADLINE": "Lessons Learned from Ebola",
       "LOCATION": "Dallas",
       "YOUTUBE_ID": "_XhNS2Vk9OQ",
       "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "DATE_PUBLISHED": "Jan. 28, 2015",
+      "MAP_IMG": "Dallas"
     },
     {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "HEADLINE": "Property Tax Reform",
       "LOCATION": "Beaumont",
       "YOUTUBE_ID": "_XhNS2Vk9OQ",
       "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "DATE_PUBLISHED": "Jan. 29, 2015",
+      "MAP_IMG": "Beaumont"
     },
     {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
+      "HEADLINE": "PreK",
       "LOCATION": "Spring Branch",
       "YOUTUBE_ID": "_XhNS2Vk9OQ",
       "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
-    },
-    {
-      "HEADLINE": "Lorem ipsum dolor sit amet, consectetur ",
-      "LOCATION": "Waco",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
-      "DATE_PUBLISHED": "Jan. 20, 2015"
+      "DATE_PUBLISHED": "Jan. 30, 2015",
+      "MAP_IMG": "SpringBranch"
     }
   ],
   "META": [
