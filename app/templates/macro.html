@@ -76,6 +76,16 @@
     </header>
     <div class="video">
       <iframe width="560" height="315" src="//www.youtube.com/embed/{{ x.YOUTUBE_ID }}" frameborder="0" allowfullscreen></iframe>
+<!--     {% if loop.first %}
+      {% include 'app/templates/includes/ad1.html' %}
+    {% elif loop.index0 == 2 %}
+      {% include 'app/templates/includes/ad2.html' %}
+    {% elif loop.index0 == 4 %}
+      {% include 'app/templates/includes/ad3.html' %}
+    {% elif loop.index0 == 6 %}
+      {% include 'app/templates/includes/ad4.html' %}
+    {% else %}
+    {% endif %} -->
     </div>
     <div class="map">
       <img class="mobile" src="images/TT-SOM-map-{{ x.MAP_IMG }}-mobile.png">
@@ -85,6 +95,21 @@
       <p><span class="dateline">{{ x.LOCATION }} &mdash; </span>{{ x.SHORT_DESC }}</p>
     </div>
   </div>
+    {% if loop.first %}
+      {% include 'app/templates/includes/ad1.html' %}
+      {% include 'app/templates/includes/ad1_mobile.html' %}
+    {% elif loop.index0 == 2 %}
+      {% include 'app/templates/includes/ad2.html' %}
+      {% include 'app/templates/includes/ad2_mobile.html' %}
+    {% elif loop.index0 == 4 %}
+      {% include 'app/templates/includes/ad3.html' %}
+      {% include 'app/templates/includes/ad3_mobile.html' %}
+    {% elif loop.index0 == 6 %}
+      {% include 'app/templates/includes/ad4.html' %}
+      {% include 'app/templates/includes/ad4_mobile.html' %}
+    {% else %}
+    {% endif %}
   {% endfor %}
+
 {% endmacro %}
 

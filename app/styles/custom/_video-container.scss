@@ -5,6 +5,7 @@
 
 .video-block {
   @include span-columns(12);
+  @include clearfix;
 
   // border-bottom: 1px solid $tribune-yellow;
   padding-bottom: 1.4em;
