@@ -4,16 +4,17 @@
   }
   li {
     @include span-columns(12);
-    @include media($default-768) {
+    @include media($navlinks) {
       @include span-columns(6);
-      @include omega(2n);
+      @include omega();
+      min-height: 2.1em;
     }
 
     font-family: $base-sans-serif;
-    font-size: 1em;
-    font-weight: 200;
-    margin-bottom: 1.3em;
-
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin-bottom: .5em;
 
     .dateline {
       text-transform: uppercase;
@@ -23,13 +24,17 @@
 
   a {
     color: $bodytext-black;
+    .underline {
+      border-bottom: 1px solid $teal;
+      padding-bottom: .15em;
+    }
 
 
     &:hover {
       text-decoration: none;
 
       .underline {
-        border-bottom: 1px solid $tribune-yellow;
+        color: $teal;
       }
 
     }

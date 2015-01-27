@@ -2,6 +2,8 @@ $small: new-breakpoint(min-width 460px max-width 600px);
 $medium: new-breakpoint(min-width 601px max-width 1100px);
 $large: new-breakpoint(min-width 1101px);
 
+$navlinks: new-breakpoint(min-width 970px);
+
 .main {
   @include outer-container;
 }
