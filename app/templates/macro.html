@@ -8,7 +8,7 @@
     <meta property="og:title" content="{{ x.Series }}">
     <meta property="og:url" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind/">
     <meta property="og:redirect_uri" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="images/TT-state-of-mind-landing-pointer002.jpg">
 
   <!-- Twitter settings -->
     <meta name="twitter:card" value="summary_large_image">
@@ -17,7 +17,7 @@
     <meta name="twitter:title" content="{{ x.Series }}">
     <meta name="twitter:description" content="{{ x.twitter_text }}">
     <meta name="twitter:url" content="//s3.amazonaws.com/apps.texastribune.org/state-of-mind/">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:image" content="images/TT-state-of-mind-landing-pointer002.jpg">
     {% endfor %}
   {% endmacro %}
 
@@ -44,12 +44,12 @@
     <h1>{{ sheet.headline }}</h1>
     <div class="byline">By {{ sheet.byline }} | Dec. 28, 2014</div>
     <div class="row share-row">
-      <a href="https://twitter.com/intent/tweet?text={{ sheet.tweet_text | urlencode }} {{ sheet.share_url_tw | urlencode }}&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
+      <a href="https://twitter.com/intent/tweet?text={{ sheet.twitter_text | urlencode }}http%3A%2F%2Fapps.texastribune.org%2Fstate-of-mind%2F&via=texastribune" title="share on Twitter" class="social-share" target="_blank">
         <div class="share-cell first-share">
           <i class="fa fa-twitter"></i> Tweet
         </div>
       </a>
-      <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href={{ sheet.share_url_fb | urlencode }}&redirect_uri=http%3A%2F%2Fapps.texastribune.org/perry-legacy/{{ sheet.slug }}" title="share on Facebook" class="social-share" target="_blank">
+      <a href="https://www.facebook.com/dialog/share?app_id=154122474650943&display=popup&href=http%3A%2F%2Fapps.texastribune.org%2Fstate-of-mind%2F&redirect_uri=http%3A%2F%2Fapps.texastribune.org%2Fstate-of-mind%2F" title="share on Facebook" class="social-share" target="_blank">
         <div class="share-cell">
           <i class="fa fa-facebook"></i> Share
         </div>
@@ -62,7 +62,7 @@
 {% macro navlinks(sheet) %}
   {% for x in sheet %}
   <li>
-    <a href="#{{ x.YOUTUBE_ID }}"><i class="fa fa-angle-right"></i><span class="underline"><span class="dateline">{{ x.LOCATION }}</span> | {{ x.HEADLINE }}</span></a>
+    <a href="#{{ x.YOUTUBE_ID }}"><span class="underline"><span class="dateline">{{ x.LOCATION }}</span> | {{ x.HEADLINE }}</span></a>
   </li>
   {% endfor %}
 {% endmacro %}

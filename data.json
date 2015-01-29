@@ -37,42 +37,48 @@
       "MAP_IMG": "Mansfield"
     },
     {
-      "HEADLINE": "Hazelwood",
+      "HEADLINE": "Funding Concerns Surround Veterans Tuition Program",
       "LOCATION": "San Marcos",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "YOUTUBE_ID": "hjgt8HUIiWo",
+      "SHORT_DESC": "For more than 80 years, veterans in Texas have received a free education through the Hazlewood Act. The state’s university systems bear the brunt of the costs, which have escalated since the program expanded five years ago to allow veterans to transfer unused credit hours to their children. While the program is well regarded, there have been disputes connected to how it is applied.",
       "DATE_PUBLISHED": "Jan. 27, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/27/funding-concerns-surround-veterans-tuition-program/",
       "MAP_IMG": "SanMarcos"
     },
     {
-      "HEADLINE": "Lessons Learned from Ebola",
+      "HEADLINE": "Targeting Emergency Preparedness",
       "LOCATION": "Dallas",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "YOUTUBE_ID": "YnaAbAl6ZFk",
+      "SHORT_DESC": "This legislative session, lawmakers will consider ways to improve the state’s preparedness for public health emergencies. Dallas County leaders identified shortfalls in the system last fall when local health officials diagnosed the country’s first case of Ebola. Legislation is in the works to address those concerns and give the governor the power to declare a state of infectious disease emergency. ",
       "DATE_PUBLISHED": "Jan. 28, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/28/lawmakers-overhaul-states-emergency-preparedness/",
       "MAP_IMG": "Dallas"
     },
     {
-      "HEADLINE": "Property Tax Reform",
+      "HEADLINE": "Amid Talk of Property Tax Reform, Some Take Aim at Appraisal Process\n",
       "LOCATION": "Beaumont",
-      "YOUTUBE_ID": "_XhNS2Vk9OQ",
-      "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
+      "YOUTUBE_ID": "wLvqB6QLeVc",
+      "SHORT_DESC": "State leaders are focused on cutting property taxes this legislative session. But the state doesn’t set property tax rates, or even collect the money. The talk in some small Texas counties is instead centered on making the property appraisal process more uniform. Some lawmakers see flaws in the system and an opportunity to consolidate oversight of the appraisal districts.",
       "DATE_PUBLISHED": "Jan. 29, 2015",
+      "TRIB_URL": "http://www.texastribune.org/2015/01/29/smaller-counties-fueling-talk-property-tax-reform/",
       "MAP_IMG": "Beaumont"
     },
     {
       "HEADLINE": "PreK",
-      "LOCATION": "Spring Branch",
+      "LOCATION": "Austin",
       "YOUTUBE_ID": "_XhNS2Vk9OQ",
       "SHORT_DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at lectus et justo pharetra congue quis id arcu. Vestibulum feugiat lectus id urna accumsan tincidunt. Integer eleifend odio vitae nisi cursus convallis. ",
       "DATE_PUBLISHED": "Jan. 30, 2015",
-      "MAP_IMG": "SpringBranch"
+      "MAP_IMG": "Austin"
     }
   ],
   "META": [
     {
       "Series": "State of Mind",
-      "Subtitle": "Community Concerns Come to the Capitol"
+      "Subtitle": "Community Concerns Come to the Capitol",
+      "Intro_Graph": "Before state lawmakers debate the issues of the 84th legislative session, our multimedia team traveled across the state to hear what Texans were talking about. Those community concerns are the focus of our eight-part State of Mind video series, which also includes a look back at issues raised during the 83rd session. Watch any or all of the videos here. ",
+      "facebook_text": "Check out Texas Tribune’s State of Mind video series - a look at community concerns coming to the Capitol.",
+      "twitter_text": "Check out @TexasTribune’s State of Mind video series - a look at community concerns coming to the Capitol. #txlege "
     }
   ]
 }
